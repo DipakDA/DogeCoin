@@ -66,10 +66,10 @@ const coinsToTrack = async function() {
     //   break;
     // }
   }
-  console.log(json_1);
+  console.log(JSON.stringify(json_1));
   console.log(count_to_track);
   // console.log(final_pairs_list);
-  
+
 }
 
 coinsToTrack();
